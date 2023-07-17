@@ -13,7 +13,7 @@ def check_login():
     email = request.form['email']
     password = request.form['password']
 
-    print(f'Email:{email} Password:{password}')
+    #print(f'Email:{email} Password:{password}')
 
     # read the CSV file and check for email and password
     with open('accountdatabase.csv', 'r') as f:
